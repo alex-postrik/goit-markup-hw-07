@@ -17,28 +17,31 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- хедер -->
     <header class="header">
       <div class="header-conteiner conteiner">
         <nav class="nav-bar">
-          <a class="nav-bar__logo" href="./index.html">
-            <span class="nav-bar__logo--color logo--blue">Web</span>Studio</a
+          <a class="nav-bar__logo logo link" href="./index.html">
+            Web<span class="logo__darck">Studio</span></a
           >
           <ul class="nav-bar__items list">
             <li class="nav-bar__list">
-              <a class="nav-bar__link" href="./index.html">Студія</a>
+              <a class="nav-bar__link link" href="./index.html">Студія</a>
             </li>
             <li class="nav-bar__list">
-              <a class="nav-bar__link active-current" href="./portfolio.html">Портфоліо</a>
+              <a class="nav-bar__link nav-bar__link--active link" href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
-            <li class="nav-bar__list"><a class="nav-bar__link" href="">Контакти</a></li>
+            <li class="nav-bar__list"><a class="nav-bar__link link" href="">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contacts list">
           <li class="contacts__list">
-            <a class="contacts__link" href="info@devstudio.com">
+            <a class="contacts__link link" href="info@devstudio.com">
               <svg class="contacts__icons" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -46,7 +49,7 @@
             >
           </li>
           <li class="contacts__list">
-            <a class="contacts__link" href="tel:+380961111111">
+            <a class="contacts__link link" href="tel:+380961111111">
               <svg class="contacts__icons" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -61,7 +64,7 @@
       <section class="Portfolio section-portfolio">
         <div class="portfolio-conteiner conteiner">
           <h1 class="visually-hidden">фільтри проєтів</h1>
-          <ul class="portfolio-filters">
+          <ul class="portfolio-filters list">
             <li class="filter__item"><button type="button" class="filters__button">Усі</button></li>
             <li class="filter-item">
               <button type="button" class="filters__button">Веб-сайти</button>
@@ -79,7 +82,7 @@
 
           <ul class="project list">
             <li class="projects__items">
-              <a class="project__card" href="#">
+              <a class="project__card link" href="#">
                 <div class="project__thumb">
                   <img
                     class="image"
@@ -97,14 +100,14 @@
                   </div>
                 </div>
 
-                <div class="project__content">
+                <div class="project__meta">
                   <h2 class="project__title">Технокряк</h2>
                   <p class="project__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <li class="projects__items">
-              <a class="project__card" href="#">
+              <a class="project__card link" href="#">
                 <div class="project__thumb">
                   <img
                     class="image"
@@ -130,7 +133,7 @@
               </a>
             </li>
             <li class="projects__items">
-              <a class="project__card" href="#">
+              <a class="project__card link" href="#">
                 <div class="project__thumb">
                   <img
                     class="image"
@@ -154,7 +157,7 @@
               </a>
             </li>
             <li class="projects__items">
-              <a class="project__card" href="#">
+              <a class="project__card link" href="#">
                 <div class="project__thumb">
                   <img
                     class="image"
@@ -178,7 +181,7 @@
               </a>
             </li>
             <li class="projects__items">
-              <a class="project__card" href="#">
+              <a class="project__card link" href="#">
                 <div class="project__thumb">
                   <img
                     class="image"
@@ -202,7 +205,7 @@
               </a>
             </li>
             <li class="projects__items">
-              <a class="project__card" href="#">
+              <a class="project__card link" href="#">
                 <div class="project__thumb">
                   <img
                     class="image"
@@ -226,7 +229,7 @@
               </a>
             </li>
             <li class="projects__items">
-              <a class="project__card" href="#">
+              <a class="project__card link" href="#">
                 <div class="project__thumb">
                   <img
                     class="image"
@@ -250,7 +253,7 @@
               </a>
             </li>
             <li class="projects__items">
-              <a class="project__card" href="#">
+              <a class="project__card link" href="#">
                 <div class="project__thumb">
                   <img
                     class="image"
@@ -274,7 +277,7 @@
               </a>
             </li>
             <li class="projects__items">
-              <a class="project__card" href="#">
+              <a class="project__card link" href="#">
                 <div class="project__thumb">
                   <img
                     class="image"
@@ -305,25 +308,27 @@
     <footer class="footer page-footer">
       <div class="footer-conteiner conteiner">
         <div>
-          <a href="./index.html" class="footer__logo">
-            <span class="footer__logo--blue logo--blue">Web</span>Studio</a
+          <a href="./index.html" class="logo footer__logo link"
+            >Web<span class="logo-light">Studio</span></a
           >
           <address class="footer-address">
             <ul class="footer-address__list list">
               <li class="footer-address__iteam">
                 <a
                   href="https://goo.gl/maps/dctksCRWfAqpbNxq5"
-                  class="footer-address__link footer-address__link--color"
+                  class="footer-address__link footer-address__link--color link"
                   target="_blank"
                   rel="nooperer noreferrer nofollow"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
               <li class="footer-address__iteam">
-                <a href="info@devstudio.com" class="footer-address__link">info@devstudio.com</a>
+                <a href="info@devstudio.com" class="footer-address__link link"
+                  >info@devstudio.com</a
+                >
               </li>
               <li class="footer-address__iteam">
-                <a href="tel:+380961111111" class="footer-address__link">+38 096 111 11 11</a>
+                <a href="tel:+380961111111" class="footer-address__link link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
