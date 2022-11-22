@@ -1,7 +1,8 @@
 .team-section {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+
+  @include padding-section;
+
   background-color: var(--secondary-main-color);
 }
 .team-title {
@@ -60,16 +61,13 @@
   gap: 10px;
 }
 .team-social__items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexy;
 
   border-radius: 50px;
 }
 .team-social__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexy;
+
   border-radius: 50%;
 
   width: 44px;

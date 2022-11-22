@@ -18,9 +18,8 @@
 .modal__close-btn {
   position: absolute;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexy;
+
   cursor: pointer;
   top: 8px;
   right: 8px;
@@ -137,9 +136,8 @@
 
 .backdrop-form__policy {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+  @include flexy;
 
   padding-top: 20px;
   padding-bottom: 30px;

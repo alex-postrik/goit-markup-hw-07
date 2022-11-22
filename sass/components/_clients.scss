@@ -1,7 +1,7 @@
 .clients-section {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+
+  @include padding-section;
 }
 .clients__title {
   margin-right: auto;
@@ -15,9 +15,7 @@
 }
 
 .clients__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexy;
   gap: 30px;
 }
 
@@ -27,9 +25,8 @@
   gap: 30px;
 }
 .clients__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexy;
+
   width: 170px;
   height: 92px;
 

@@ -77,9 +77,7 @@
 }
 
 .contacts__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexy;
 }
 .contacts .contacts__list:not(:last-child) {
   margin-right: 50px;
